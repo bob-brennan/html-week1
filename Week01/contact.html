@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">&laquo;WingFoiling&raquo;</a>
+            <a href="foils.html">&laquo;Foils&raquo;</a>
+            <a href="boards.html">&laquo;Boards&raquo;</a>
+            <a href="wings.html">&laquo;Wings&raquo;</a>
+            <a href="contact.html">&laquo;Contact&raquo;</a>
+        </nav>
+    </header>
+    
+    <div>
+        <h1>Contact Us</h1>
+    </div>
+
+    <div>
+        <h2>Interested?  Fill this out:</h2>
+        <form action="someFile.php">
+            <label for="name">Full Name:</label><input type="text" name="name" id="name" placeholder="Fred Flintstone"><br>
+            <label for="email">Email:</label><input type="email" name="email" id="email" placeholder="fred@stoneages.com"><br>
+            <label>Interests:</label><br>
+            <input type="checkbox" name="Boards" id="Boards" value="Boards"><label for="Boards">Boards</label><br>
+            <input type="checkbox" name="Foils" id="Foils" value="Foils"><label for="Foils">Foils</label><br>
+            <input type="checkbox" name="Wings" id="Wings" value="Wings"><label for="Wings">Wings</label><br>
+ 
+            <button type="button" onclick="buttonClicked()">Click Button</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Sample Manufacturer Websites</h2>
+        <p>Slingshot</p>
+        <a href="https://slingshotsports.com/collections/wings">
+            <img src="images/SlingShot.jpg" width="400"/> 
+        </a>
+
+        <p>Armstrong</p>
+        <a href="https://www.armstrongfoils.com/">
+            <img src="images/Armstrong.jpg" width="400"/> 
+        </a>
+
+        <p>F-One</p>
+        <a href="https://www.f-one.world/app/uploads/2020/12/WING-SURF-HEADER-V2.jpg">
+            <img src="https://www.f-one.world/app/uploads/2020/12/WING-SURF-HEADER-V2-300x150.jpg" width="400"/> 
+        </a>
+
+        <p>Gong</p>
+        <a href="https://www.gong-galaxy.com/en/">
+            <img src="images/Gong-Galaxy.jpg" width="400"/> 
+        </a>                        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
